@@ -12,7 +12,7 @@ The repository includes level parsing, solver implementations, an experiment run
 and scripts to reproduce results and generate plots.
 
 In the folder /levels there are the experiments to submit.
-If you want to perform more experiments,it is enough adding new .txt files according to the expected format: '#' for the walls,'@' for the player,'$' for the box,'.' for the goal
+If you want to perform more experiments,it is enough to add new .txt files according to the expected format: '#' for the walls,'@' for the player,'$' for the box,'.' for the goal
 
 How to run
 ----------
@@ -61,5 +61,6 @@ Notes
 Contact
 -------
 For questions about the implementation, see the source files in the repository.
+
 
 
