@@ -34,13 +34,6 @@ pip install -r requirements.txt
 python run_experiment.py
 ```
 
-4. Results will be written to the `results/` directory. To compile the LaTeX
-   report (optional):
-
-```powershell
-pdflatex report.tex
-```
-
 Dependencies
 ------------
 Install packages via `requirements.txt`:
@@ -64,3 +57,4 @@ Notes
 Contact
 -------
 For questions about the implementation, see the source files in the repository.
+
