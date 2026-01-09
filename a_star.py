@@ -1,5 +1,5 @@
 """
-A* Search Implementation - Following Slide 32 Pseudocode Exactly
+A* Search Implementation
 """
 import heapq
 import time
@@ -34,7 +34,7 @@ class Node:
         return self.g < other.g
 
 class AStarSolver:
-    """A* solver following Slide 32 pseudocode exactly."""
+    """A* solver"""
     
     def __init__(self, heuristic_func: Callable):
         self.heuristic = heuristic_func
@@ -208,4 +208,5 @@ def test_a_star():
     else:
         print("❌ A* test failed")
     
+
     return metrics
